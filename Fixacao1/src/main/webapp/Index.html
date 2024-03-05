@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Página Incial do Register App</title>
+	<link rel="stylesheet" type="text/css" href="Estilos.css">
+</head>
+<body>
+	<section>
+		<h1>Cadastro Do Aluno</h1>	
+		
+		<form action="register" method="post">
+			
+			<label for="fullname">Nome Completo: </label>
+			<input type="text" name="fullName" id="fulName">
+			
+			<label for="email">E-mail:</label> 	
+			<input type="email" name="email" id="email">
+			
+			<label for="email">E-mail Secundário:</label> 	
+			<input type="email" name="email2" id="email2">
+			
+			<fieldset>
+				
+					<legend>Seus interesse são: </legend>
+					<input type="checkbox" name="options" id="bootstrap" value="Curso de Bootstrap">
+					<label for="bootstrap">Curso de Bootstrap</label>
+					
+					<input type="checkbox" name="options" id="css" value="Curso de animacao css">
+					<label for="css">Curso de Animações em CSS 3 </label>
+					
+					<input type="checkbox" name="options" id="design" value="Curso design patterns">
+					<label for="design">Curso de Design Patterns</label>
+					
+				
+			</fieldset>
+				
+			<input type="submit"value="Cadastrar">
+			
+		</form>
+	</section>
+</body>
+</html>
